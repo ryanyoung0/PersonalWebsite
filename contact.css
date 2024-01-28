@@ -2,7 +2,6 @@ body {
     background-color: rgb(20, 20, 20);
     display: flex;
     flex-direction: column;
-    align-items: center;
     min-height: 100vh;
     background-image: url("ContactUsBackground.jpg");
     background-repeat: no-repeat;
@@ -18,17 +17,21 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: rgb(20, 20, 20);
+    border-radius: 25px;
+    width: 555px;
 }
 
 li {
     float: right;
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 li a {
     display: block;
     padding: 10px;
-    color: rgb(20, 20, 20);
+    color: rgb(200, 200, 200);
     background-color: transparent;
     text-decoration: none;
 }
