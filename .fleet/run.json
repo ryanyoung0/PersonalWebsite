@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "Command configuration",
+            "program": "firefox",
+            "args": ["$PROJECT_DIR$/html/index.html"],
+        },
+    ]
+}
