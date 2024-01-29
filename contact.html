@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Contact Page</title>
+        <title>Contact Me</title>
         <link rel="stylesheet" type="text/css" href="contact.css">
     </head>
     <body>
-        <h1>Contact Us</h1>
+        <h1>Contact Me</h1>
         <div style="display: flex; justify-content: right;">
             <nav>
                 <ul>
@@ -16,13 +16,15 @@
                 </ul>
             </nav>
         </div>
-        <div style="display: flex; justify-content: center;">
-            <form action="/submit_form" method="post">
-                <input type="text" id="fname" name="fname" placeholder="Name"><br>
-                <input type="text" id="email" name="email" placeholder="Email"><br>
-                <input id="message" name="message" placeholder="Message"></input><br>
-                <input type="submit" value="Submit">
-            </form>
+        <div class="form-container">
+            <div class="contact-form">
+                <form>
+                    <input type="text" placeholder="Your name" required>
+                    <input type="email" placeholder="Your email" required>
+                    <textarea placeholder="Your message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </div>
         <footer style="display: flex; justify-content: center; align-items: center; gap: 20px">
             <!-- LinkedIn Button -->
