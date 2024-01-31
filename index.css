@@ -3,6 +3,9 @@ body {
     display: flex;
     flex-direction: column;  
     min-height: 100vh;
+    background-image: url("HomeBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     gap: 35px;
 }
 
