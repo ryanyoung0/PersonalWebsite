@@ -3,6 +3,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url("ContactUsBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -37,6 +40,30 @@ li a {
 li a:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(50, 50, 50);
+}
+
+.content {
+    color: rgb(200, 200, 200);
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(15, 15, 15);
+}
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+button:hover {
+    background-color: rgb(0, 53, 128);;
 }
 
 footer {
