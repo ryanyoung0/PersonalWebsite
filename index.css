@@ -3,9 +3,6 @@ body {
     display: flex;
     flex-direction: column;  
     min-height: 100vh;
-    background-image: url("HomeBackground.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     gap: 35px;
 }
 
@@ -14,23 +11,22 @@ h1 {
 }
 
 ul {
-    list-style-type: none;
+    float: right;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(15, 15, 15);
-    border-radius: 5px;
-    display:inline-block;
+    border-radius: 10px;
 }
 
-    li {
+li {
     float: right;
     display: inline-block;
     margin-left: 25px;
     margin-right: 25px;
 }
 
-    li a {
+li a {
     display: block;
     padding: 10px;
     color: rgb(200, 200, 200);
@@ -38,13 +34,21 @@ ul {
     text-decoration: none;
 }
 
-    li a:hover {
+li a:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(50, 50, 50);
+    border-radius: 10px;
 }
 
 h2 {
     color: rgb(255, 255, 255);
+}
+.headshot {
+    width: 20%;
+    height: auto;
+    min-width: 200px;
+    max-width: 400px;
+    flex-grow: 1;
 }
 
 p {
