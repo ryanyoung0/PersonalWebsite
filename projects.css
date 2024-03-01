@@ -45,7 +45,8 @@ li a:hover {
 
 .content {
     color: rgb(200, 200, 200);
-    width: 50%;
+    min-width: 300px;
+    max-width: 1000px;
     background-color: rgb(15, 15, 15);
 
 }
@@ -65,6 +66,11 @@ button {
 }
 button:hover {
     background-color: rgb(0, 53, 128);;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
 }
 
 footer {
